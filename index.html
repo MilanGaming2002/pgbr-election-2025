@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PGBR Presidential Election May 2025</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="anniversary-text"><img src="/pngcompresion.png" alt="PGBR Meme Island" class="anniversary-icon"> The 5th Anniversary of PGBR</div>
+            <div class="nav-links">
+                <a href="index.html" class="active">Election</a>
+                <a href="history.html">History</a>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <header>
+            <h1>PGBR Presidential Election May 2025</h1>
+            <p class="subtitle">Cast your vote for the next PGBR President</p>
+            <img src="/hqdefault (1) (2).png" alt="Election Meme Collage" class="header-image">
+        </header>
+
+        <main>
+            <div id="voting-section">
+                <div id="message-box"></div>
+                <div class="candidates-grid" id="candidates-container">
+                    <!-- Candidates will be loaded here by JavaScript -->
+                </div>
+            </div>
+
+            <div id="results-section" class="hidden">
+                <h2>Current Results</h2>
+                <div id="results-container"></div>
+                <button id="back-to-voting">Return to Voting</button>
+            </div>
+
+            <div id="admin-panel" class="hidden">
+                <h2>Admin Panel</h2>
+                <p>Edit vote counts below:</p>
+                <div id="admin-votes-container"></div>
+                <button id="update-votes">Update Vote Counts</button>
+                <button id="admin-logout">Logout</button>
+            </div>
+        </main>
+
+        <div class="promo-section">
+            <h3>Featured Artist</h3>
+            <div class="artist-promo">
+                <h4>DJ FUckasucka ibrahim ii</h4>
+                <p>Check out the hottest tracks from PGBR's own DJ FUckasucka ibrahim ii</p>
+                <a href="https://open.spotify.com/artist/0yk44YckNhnWzUdO7v3EIR" target="_blank" class="spotify-link">
+                    Listen on Spotify
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            <p>
+                <span id="view-results">View Current Results</span> | 
+                <span id="admin-login-trigger">Federal Administrative Login</span>
+            </p>
+            <p class="copyright"> 2024 PGBR Electoral Commission. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <div id="admin-login-modal" class="modal hidden">
+        <div class="modal-content">
+            <h3>Federal Administrative Login</h3>
+            <input type="password" id="admin-password" placeholder="Enter password">
+            <button id="admin-login-btn">Login</button>
+            <button id="admin-cancel-btn">Cancel</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
